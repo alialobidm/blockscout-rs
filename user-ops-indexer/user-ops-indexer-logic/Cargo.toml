@@ -34,7 +34,7 @@ serde = "1.0"
 serde_json = "1.0"
 solidity-metadata = "1.0"
 thiserror = "1.0"
-tokio = { version = "1.22", features = ["sync"] }
+tokio = { version = "1.42", features = ["sync"] }
 tonic = { version = "0.8", features = ["tls-roots"] }
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
